@@ -131,3 +131,33 @@ footer {
   padding-top: 25px;
   font-family: "Josefin Sans", sans-serif;
 }
+@media (max-width: 768px){
+  section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+  }
+  .ColumnaRestauraciónLanding  {
+    width: 100%;
+  }
+  .ColumnaRenovaciónLanding{
+    width: 100%;
+    padding: 0;
+  }
+  .imagenes_landing{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  footer{
+    padding: 15px 0px;
+    width: 100%;
+  }
+  .contenedorFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+}

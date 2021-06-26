@@ -73,3 +73,21 @@ p {
 h1 {
   padding-left: 50px;
 }
+@media (max-width: 768px) {
+  .redesLanding {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .logo {
+    display: flex;
+    max-width: 95%;
+  }
+  header {
+    padding: 1.5% 4%;
+  }
+  section {
+    padding: 0;
+  }  
+}

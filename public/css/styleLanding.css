@@ -131,12 +131,19 @@ footer {
   padding-top: 25px;
   font-family: "Josefin Sans", sans-serif;
 }
+
+/*-----MEDIA QUERIES------------------------------------*/
+
 @media (max-width: 768px){
   section{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 100%;
+    height: 94%;
+    justify-content: space-evenly;
+  }
+  body {
+    height: 85vh;
   }
   .ColumnaRestauraciónLanding  {
     width: 100%;
@@ -145,6 +152,18 @@ footer {
     width: 100%;
     padding: 0;
   }
+  .ColumnaRestauraciónLanding .textoDescripción {
+    left: 4%;
+    bottom: 53%;
+    margin: 0px;
+    position: fixed;
+  }  
+  .ColumnaRenovaciónLanding .textoDescripción {
+    left: 4%;
+    bottom: 16%;
+    margin: 0px;
+    position: fixed;
+}
   .imagenes_landing{
     display: flex;
     flex-direction: column;
@@ -158,6 +177,16 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+  }
+
+  .logo {
+    display: flex;
+    max-width: 95%;
+  }
+  .redesLanding {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
   }
 }
